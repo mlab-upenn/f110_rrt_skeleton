@@ -1,0 +1,16 @@
+# Topics that RRT listens to
+# TODO: add your own
+# pose from particle filter
+pf_pose_topic: "/pf/viz/inferred_pose"
+# layers of occupancy grid
+static_layer_topic: "/static_layer"
+env_layer_topic: "/env_layer"
+dynamic_layer_topic: "/dynamic_layer"
+
+# Topics that RRT publishes to
+# TODO: add your own
+# visualization
+path_topic: "path"
+tree_topic: "rrt_tree"
+
+# TODO: add Parameters for RRT
